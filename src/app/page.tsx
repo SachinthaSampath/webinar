@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
         <div className="collapse collapse-arrow bg-base-200">
-          <input type="radio" name="my-accordion-2" checked="checked" />
+          <input type="radio" name="my-accordion-2" checked={true} />
           <div className="collapse-title text-xl font-medium">Click to open this one and close others</div>
           <div className="collapse-content">
             <p>hello</p>
